@@ -33,9 +33,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data
-                    android:scheme="app"
-                    android:host="storyly-demo"
-                    android:pathPrefix="/custom-ui" />
+                    android:scheme="gssapp"
+                     />
             </intent-filter>
         </activity>
 

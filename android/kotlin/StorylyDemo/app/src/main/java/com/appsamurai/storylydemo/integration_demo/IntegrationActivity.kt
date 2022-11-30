@@ -12,7 +12,7 @@ import com.appsamurai.storylydemo.databinding.ActivityIntegrationBinding
 
 class IntegrationActivity : AppCompatActivity() {
     companion object {
-        const val STORYLY_DEMO_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjM3MzAsImFwcF9pZCI6OTkwNSwiaW5zX2lkIjoxMDQxOX0.eBNUkBBLrdd30175KsntgLhq9hqJ1K9PZRR5IZqG8gk"
+        const val STORYLY_DEMO_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NfaWQiOjgxMDMsImFwcF9pZCI6MTMwMjMsImluc19pZCI6MTQxMTN9.Op_DjJuMQOs33qoIQRF_YYHy1UY2xV9jberx1PHYWsw"
     }
 
     private lateinit var binding: ActivityIntegrationBinding
