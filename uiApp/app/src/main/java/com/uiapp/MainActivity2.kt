@@ -31,12 +31,7 @@ class MainActivity2 : AppCompatActivity() {
         )
 
         storylyView.storylyInit = StorylyInit(
-            "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjcxMzcsImFwcF9pZCI6MTE3NDYsImluc19pZCI6MTI1ODJ9.k7IVUbx4b23WTobh7u-ZIAYMdjN1xIDyA8z5WWncWbU",
-            //"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjcxMzcsImFwcF9pZCI6MTE3NTIsImluc19pZCI6MTI1ODl9.Z_F9S6OyES9rfwYDFV47zT0_DbP0WUwqE5EmYOpCZRQ",
-            //"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjQ2NDUsImFwcF9pZCI6MTIwMDMsImluc19pZCI6MTI5MDJ9.WXCJBzovJhuVQu9vQGSfk1g7OfGmjWOqgssZ9j02-d4",
-            //"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjcxMzcsImFwcF9pZCI6MTE3NTIsImluc19pZCI6MTMzMDF9.0VSpIaKA9IzeTZ1CICJOkINWyENP7ROPN_d5Qo5yEo4",
-            customParameter = "52F69B7D441C335B5B297D6BBF692751",
-            userData = userPropertiesData
+            "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NfaWQiOjgyNTMsImFwcF9pZCI6MTMyMjcsImluc19pZCI6MTQzODZ9._CeIetiqIj_P46K_SzxditVkoRAAVtdBsRxNZ_qJW4E",
         )
         data1?.let {
             storylyView.openStory(data1)
