@@ -50,7 +50,7 @@ class IntegrationActivity : AppCompatActivity() {
                         Log.d("[storyly]", "IntegrationActivity:storylyActionClicked - forwarding to url {$url}")
                         startActivity(
                             Intent(Intent.ACTION_VIEW).apply {
-                                data = Uri.parse("app://storyly-demo/custom-ui")
+                                data = Uri.parse("gssapp://")
                             }
                         )
                     }
